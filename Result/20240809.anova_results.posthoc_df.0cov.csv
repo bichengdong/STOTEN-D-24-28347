@@ -1,0 +1,577 @@
+list_id,term,df,R Sum Sq,R Mean Sq,Iter,Pr(Prob),variable,invasion_status02,result_type,source,Comparison,Stat,p.value,p.adjust
+1,invasion,1,6192.64568790729,6192.64568790729,53,0.660377358490566,local_aboveground_mass,community,anova_df,NA,NA,NA,NA,NA
+1,distance,1,146.281847517608,146.281847517608,51,0.980392156862745,local_aboveground_mass,community,anova_df,NA,NA,NA,NA,NA
+1,invasion:distance,1,2491.6215248664,2491.6215248664,152,0.401315789473684,local_aboveground_mass,community,anova_df,NA,NA,NA,NA,NA
+1,Residuals,36,169289.247675351,4702.47910209308,NA,NA,local_aboveground_mass,community,anova_df,NA,NA,NA,NA,NA
+2,invasion,1,960.399999999998,960.399999999998,60,0.633333333333333,local_no.plants,community,anova_df,NA,NA,NA,NA,NA
+2,distance,1,17556.1,17556.1,340,0.229411764705882,local_no.plants,community,anova_df,NA,NA,NA,NA,NA
+2,invasion:distance,1,20430.4,20430.4,515,0.163106796116505,local_no.plants,community,anova_df,NA,NA,NA,NA,NA
+2,Residuals,36,361016.2,10028.2277777778,NA,NA,local_no.plants,community,anova_df,NA,NA,NA,NA,NA
+3,invasion,1,9809.424,9809.424,5000,0,local_coverage_perc,community,anova_df,NA,NA,NA,NA,NA
+3,distance,1,43.6809999999994,43.6809999999994,51,0.764705882352941,local_coverage_perc,community,anova_df,NA,NA,NA,NA,NA
+3,invasion:distance,1,204.304000000003,204.304000000003,168,0.375,local_coverage_perc,community,anova_df,NA,NA,NA,NA,NA
+3,Residuals,36,12865.842,357.3845,NA,NA,local_coverage_perc,community,anova_df,NA,NA,NA,NA,NA
+4,invasion,1,87.025,87.025,5000,0.0012,richness,community,anova_df,NA,NA,NA,NA,NA
+4,distance,1,5.62499999999997,5.62499999999997,116,0.46551724137931,richness,community,anova_df,NA,NA,NA,NA,NA
+4,invasion:distance,1,0.625000000000011,0.625000000000011,96,0.510416666666667,richness,community,anova_df,NA,NA,NA,NA,NA
+4,Residuals,36,288.1,8.00277777777777,NA,NA,richness,community,anova_df,NA,NA,NA,NA,NA
+5,invasion,1,0.153238418204819,0.153238418204819,5000,0.016,evenness,community,anova_df,NA,NA,NA,NA,NA
+5,distance,1,0.007786257098421,0.007786257098421,51,0.666666666666667,evenness,community,anova_df,NA,NA,NA,NA,NA
+5,invasion:distance,1,0.005686308766211,0.005686308766211,88,0.534090909090909,evenness,community,anova_df,NA,NA,NA,NA,NA
+5,Residuals,36,0.828752097938021,0.0230208916093895,NA,NA,evenness,community,anova_df,NA,NA,NA,NA,NA
+6,invasion,1,0.253111489277915,0.253111489277915,5000,0.0046,simpson_index,community,anova_df,NA,NA,NA,NA,NA
+6,distance,1,0.000646220465909011,0.000646220465909011,51,0.92156862745098,simpson_index,community,anova_df,NA,NA,NA,NA,NA
+6,invasion:distance,1,0.000234993925177339,0.000234993925177339,51,0.862745098039216,simpson_index,community,anova_df,NA,NA,NA,NA,NA
+6,Residuals,36,0.957549202728509,0.0265985889646808,NA,NA,simpson_index,community,anova_df,NA,NA,NA,NA,NA
+7,invasion,1,108784.9,108784.9,140,0.421428571428571,its_observed_features,community,anova_df,NA,NA,NA,NA,NA
+7,distance,1,8065.59999999983,8065.59999999983,69,0.594202898550725,its_observed_features,community,anova_df,NA,NA,NA,NA,NA
+7,invasion:distance,1,41088.1000000005,41088.1000000005,51,0.745098039215686,its_observed_features,community,anova_df,NA,NA,NA,NA,NA
+7,Residuals,36,4945917,137386.583333333,NA,NA,its_observed_features,community,anova_df,NA,NA,NA,NA,NA
+8,invasion,1,0.005405625,0.005405625,708,0.124293785310734,its_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+8,distance,1,0.000801024999999973,0.000801024999999973,68,0.602941176470588,its_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+8,invasion:distance,1,0.00024502499999998,0.00024502499999998,51,0.764705882352941,its_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+8,Residuals,36,0.1160193,0.00322275833333333,NA,NA,its_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+9,invasion,1,0.00158759999999999,0.00158759999999999,387,0.20671834625323,its_simpson,community,anova_df,NA,NA,NA,NA,NA
+9,distance,1,7.28999999999894e-05,7.28999999999894e-05,51,0.980392156862745,its_simpson,community,anova_df,NA,NA,NA,NA,NA
+9,invasion:distance,1,3.59999999999605e-06,3.59999999999605e-06,51,0.941176470588235,its_simpson,community,anova_df,NA,NA,NA,NA,NA
+9,Residuals,36,0.026391,0.000733083333333334,NA,NA,its_simpson,community,anova_df,NA,NA,NA,NA,NA
+10,invasion,1,402604.225,402604.225,108,0.481481481481481,X16s_observed_features,community,anova_df,NA,NA,NA,NA,NA
+10,distance,1,573363.024999998,573363.024999998,280,0.264285714285714,X16s_observed_features,community,anova_df,NA,NA,NA,NA,NA
+10,invasion:distance,1,443734.224999996,443734.224999996,246,0.292682926829268,X16s_observed_features,community,anova_df,NA,NA,NA,NA,NA
+10,Residuals,36,12926734.3,359075.952777778,NA,NA,X16s_observed_features,community,anova_df,NA,NA,NA,NA,NA
+11,invasion,1,0.000359999999999999,0.000359999999999999,51,1,X16s_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+11,distance,1,6.40000000000271e-06,6.40000000000271e-06,51,0.823529411764706,X16s_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+11,invasion:distance,1,0.0033855999999999,0.0033855999999999,122,0.450819672131148,X16s_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+11,Residuals,36,0.1277484,0.00354856666666667,NA,NA,X16s_pielou_e,community,anova_df,NA,NA,NA,NA,NA
+12,invasion,1,0.000489999999999996,0.000489999999999996,51,0.784313725490196,X16s_simpson,community,anova_df,NA,NA,NA,NA,NA
+12,distance,1,0.000152100000000014,0.000152100000000014,51,0.725490196078431,X16s_simpson,community,anova_df,NA,NA,NA,NA,NA
+12,invasion:distance,1,0.000577599999999949,0.000577599999999949,146,0.410958904109589,X16s_simpson,community,anova_df,NA,NA,NA,NA,NA
+12,Residuals,36,0.0193902,0.000538616666666667,NA,NA,X16s_simpson,community,anova_df,NA,NA,NA,NA,NA
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,invasion,non_ap - ap = 0,1.164,0.2783,0.2783
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,distance,1 - 5 = 0,0.179,0.8779,0.8779
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.3511,0.7237,0.7628
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.3169,0.7628,0.7628
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.193,0.2302,0.7088
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.5911,0.6476,0.7628
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,ap.1 - ap.5 = 0,0.9991,0.3544,0.7088
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.173,0.2763,0.7088
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,invasion,non_ap - ap = 0,-0.306,0.7538,0.7538
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,distance,1 - 5 = 0,1.308,0.2142,0.2142
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.7182,0.4865,0.6366
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.573,0.1261,0.4444
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.6791,0.5305,0.6366
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.232,0.2222,0.4444
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.09792,0.9189,0.9189
+2,NA,NA,NA,NA,NA,NA,local_no.plants,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.377,0.1802,0.4444
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,invasion,non_ap - ap = 0,4.085,0,0
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,distance,1 - 5 = 0,0.2726,0.8008,0.8008
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,3.143,0,0
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.649,0.1982,0.2378
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,3.075,0,0
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-2.656,0.007007,0.01051
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.22,0.8228,0.8228
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,2.546,0.006006,0.01051
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,invasion,non_ap - ap = 0,-2.983,0,0
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,distance,1 - 5 = 0,0.7584,0.4805,0.4805
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.891,0.05305,0.1057
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.919,0.07407,0.1057
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.769,0.08809,0.1057
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,2.359,0.006006,0.03604
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,ap.1 - ap.5 = 0,0.2974,0.8078,0.8078
+4,NA,NA,NA,NA,NA,NA,richness,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-2.312,0.01401,0.04203
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,invasion,non_ap - ap = 0,-2.45,0.009009,0.009009
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,distance,1 - 5 = 0,-0.5523,0.5726,0.5726
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.8,0.06907,0.2072
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.6627,0.5215,0.6258
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.935,0.05706,0.2072
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.467,0.1381,0.2072
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.07715,0.954,0.954
+5,NA,NA,NA,NA,NA,NA,evenness,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.65,0.1041,0.2072
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,invasion,non_ap - ap = 0,-2.854,0.003003,0.003003
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,distance,1 - 5 = 0,-0.1442,0.8739,0.8739
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.866,0.06206,0.09309
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.1563,0.8829,0.958
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-2.062,0.02903,0.08709
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.921,0.05105,0.09309
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.05563,0.958,0.958
+6,NA,NA,NA,NA,NA,NA,simpson_index,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-2.176,0.02102,0.08709
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,invasion,non_ap - ap = 0,0.9117,0.3814,0.3814
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,distance,1 - 5 = 0,0.2483,0.8158,0.8158
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.129,0.2783,0.8258
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.5112,0.6166,0.8258
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.9087,0.3854,0.8258
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.4245,0.6937,0.8258
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.2535,0.8128,0.8258
+7,NA,NA,NA,NA,NA,NA,its_observed_features,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.2269,0.8258,0.8258
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,invasion,non_ap - ap = 0,-1.312,0.1862,0.1862
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,distance,1 - 5 = 0,0.5051,0.6276,0.6276
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.109,0.2733,0.7183
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.1304,0.8929,0.8929
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.5558,0.5986,0.7183
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.288,0.2132,0.7183
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,ap.1 - ap.5 = 0,0.8148,0.4364,0.7183
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.7264,0.4835,0.7183
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,invasion,non_ap - ap = 0,-1.486,0.1231,0.1231
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,distance,1 - 5 = 0,0.3183,0.7638,0.7638
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.085,0.3373,0.7128
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.1364,0.9019,0.9019
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.8142,0.5075,0.7387
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.26,0.2332,0.7128
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,ap.1 - ap.5 = 0,0.5119,0.6156,0.7387
+9,NA,NA,NA,NA,NA,NA,its_simpson,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.9917,0.3564,0.7128
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,invasion,non_ap - ap = 0,1.046,0.3113,0.3113
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,distance,1 - 5 = 0,1.248,0.2232,0.2232
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.03628,0.969,0.969
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.09669,0.9229,0.969
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.817,0.05906,0.1772
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.131,0.8989,0.969
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,ap.1 - ap.5 = 0,1.868,0.05005,0.1772
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.566,0.1211,0.2422
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,invasion,non_ap - ap = 0,-0.3268,0.7938,0.7938
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,distance,1 - 5 = 0,-0.04357,0.967,0.967
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.8936,0.5135,0.8318
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.6279,0.5906,0.8318
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.2122,0.8248,0.8318
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.2898,0.8318,0.8318
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,ap.1 - ap.5 = 0,0.834,0.4855,0.8318
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.4907,0.6547,0.8318
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,invasion,non_ap - ap = 0,-0.9629,0.5065,0.5065
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,distance,1 - 5 = 0,-0.5365,0.8739,0.8739
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.042,0.3824,0.9409
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.8122,0.6747,0.9409
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.7718,0.7898,0.9409
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.9183,0.5005,0.9409
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,ap.1 - ap.5 = 0,1.1,0.3283,0.9409
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,community,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.137,0.9409,0.9409
+1,invasion,1,13.2936442114045,13.2936442114045,51,0.901960784313726,local_aboveground_mass,invasive,anova_df,NA,NA,NA,NA,NA
+1,distance,1,150.556617104175,150.556617104175,184,0.353260869565217,local_aboveground_mass,invasive,anova_df,NA,NA,NA,NA,NA
+1,invasion:distance,1,520.678023553538,520.678023553538,2181,0.0440165061898212,local_aboveground_mass,invasive,anova_df,NA,NA,NA,NA,NA
+1,Residuals,26,2469.84375041508,94.9939904005799,NA,NA,local_aboveground_mass,invasive,anova_df,NA,NA,NA,NA,NA
+2,invasion,1,4156.88318181818,4156.88318181818,414,0.195652173913043,local_no.plants,invasive,anova_df,NA,NA,NA,NA,NA
+2,distance,1,4884.47590909091,4884.47590909091,550,0.154545454545455,local_no.plants,invasive,anova_df,NA,NA,NA,NA,NA
+2,invasion:distance,1,3087.07954545454,3087.07954545454,103,0.495145631067961,local_no.plants,invasive,anova_df,NA,NA,NA,NA,NA
+2,Residuals,26,75707.2083333334,2911.81570512821,NA,NA,local_no.plants,invasive,anova_df,NA,NA,NA,NA,NA
+3,invasion,1,1304.55304155844,1304.55304155844,5000,0.001,local_coverage_perc,invasive,anova_df,NA,NA,NA,NA,NA
+3,distance,1,296.210496103896,296.210496103896,934,0.0974304068522484,local_coverage_perc,invasive,anova_df,NA,NA,NA,NA,NA
+3,invasion:distance,1,213.627950649351,213.627950649351,327,0.235474006116208,local_coverage_perc,invasive,anova_df,NA,NA,NA,NA,NA
+3,Residuals,26,3120.29761904762,120.011446886447,NA,NA,local_coverage_perc,invasive,anova_df,NA,NA,NA,NA,NA
+4,invasion,1,0.135418470418471,0.135418470418471,51,0.92156862745098,richness,invasive,anova_df,NA,NA,NA,NA,NA
+4,distance,1,2.01905483405483,2.01905483405483,714,0.123249299719888,richness,invasive,anova_df,NA,NA,NA,NA,NA
+4,invasion:distance,1,0.499054834054834,0.499054834054834,81,0.555555555555556,richness,invasive,anova_df,NA,NA,NA,NA,NA
+4,Residuals,26,23.6924603174603,0.911248473748474,NA,NA,richness,invasive,anova_df,NA,NA,NA,NA,NA
+5,invasion,1,0.103613522011557,0.103613522011557,403,0.200992555831266,evenness,invasive,anova_df,NA,NA,NA,NA,NA
+5,distance,1,0.0686922336544992,0.0686922336544992,478,0.173640167364017,evenness,invasive,anova_df,NA,NA,NA,NA,NA
+5,invasion:distance,1,0.0739803158969551,0.0739803158969551,95,0.515789473684211,evenness,invasive,anova_df,NA,NA,NA,NA,NA
+5,Residuals,12,0.73496515240079,0.0612470960333991,NA,NA,evenness,invasive,anova_df,NA,NA,NA,NA,NA
+6,invasion,1,0.034661149227125,0.034661149227125,170,0.370588235294118,simpson_index,invasive,anova_df,NA,NA,NA,NA,NA
+6,distance,1,0.0484673816939033,0.0484673816939033,514,0.163424124513619,simpson_index,invasive,anova_df,NA,NA,NA,NA,NA
+6,invasion:distance,1,0.025538263710752,0.025538263710752,159,0.389937106918239,simpson_index,invasive,anova_df,NA,NA,NA,NA,NA
+6,Residuals,12,0.370256422367576,0.0308547018639647,NA,NA,simpson_index,invasive,anova_df,NA,NA,NA,NA,NA
+7,invasion,1,16872.9645093795,16872.9645093795,51,0.843137254901961,its_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+7,distance,1,190884.913600288,190884.913600288,577,0.149046793760832,its_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+7,invasion:distance,1,438304.038448774,438304.038448774,1313,0.0708301599390708,its_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+7,Residuals,26,2580283.69246032,99241.680479243,NA,NA,its_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+8,invasion,1,0.00573847621933621,0.00573847621933621,726,0.121212121212121,its_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+8,distance,1,0.00695421440115434,0.00695421440115434,383,0.2088772845953,its_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+8,invasion:distance,1,0.000370088340548346,0.000370088340548346,81,0.555555555555556,its_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+8,Residuals,26,0.0835287698412697,0.00321264499389499,NA,NA,its_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+9,invasion,1,0.0021581314935065,0.0021581314935065,1787,0.0531617235590375,its_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+9,distance,1,0.000835491493506456,0.000835491493506456,51,0.686274509803922,its_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+9,invasion:distance,1,0.000180880584415587,0.000180880584415587,55,0.654545454545455,its_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+9,Residuals,26,0.0219282321428571,0.000843393543956044,NA,NA,its_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+10,invasion,1,713343.212301588,713343.212301588,709,0.124118476727786,X16s_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+10,distance,1,1002670.61593795,1002670.61593795,390,0.205128205128205,X16s_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+10,invasion:distance,1,92538.160180375,92538.160180375,51,0.705882352941177,X16s_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+10,Residuals,26,8928608.28769841,343408.011065324,NA,NA,X16s_observed_features,invasive,anova_df,NA,NA,NA,NA,NA
+11,invasion,1,0.000117469155844157,0.000117469155844157,51,1,X16s_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+11,distance,1,0.00147065461038958,0.00147065461038958,184,0.353260869565217,X16s_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+11,invasion:distance,1,0.000156610974025978,0.000156610974025978,51,0.882352941176471,X16s_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+11,Residuals,26,0.0652018035714286,0.00250776167582418,NA,NA,X16s_pielou_e,invasive,anova_df,NA,NA,NA,NA,NA
+12,invasion,1,2.29628860028852e-05,2.29628860028852e-05,51,0.784313725490196,X16s_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+12,distance,1,0.000108170158730146,0.000108170158730146,304,0.25,X16s_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+12,invasion:distance,1,2.32773448773482e-06,2.32773448773482e-06,51,0.862745098039216,X16s_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+12,Residuals,26,0.00207210317460319,7.96962759462764e-05,NA,NA,X16s_simpson,invasive,anova_df,NA,NA,NA,NA,NA
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,invasion,non_ap - ap = 0,0.514,0.6346,0.6346
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,distance,1 - 5 = 0,0.9019,0.3664,0.3664
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.763,0.07608,0.2282
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,2.034,0.02603,0.1562
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.9266,0.3904,0.4494
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.9807,0.3914,0.4494
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.8272,0.4494,0.4494
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.363,0.1802,0.3604
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,invasion,non_ap - ap = 0,1.257,0.1912,0.1912
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,distance,1 - 5 = 0,1.158,0.2723,0.2723
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.202,0.2102,0.6306
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.041,0.4004,0.8008
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.272,0.1652,0.6306
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.1947,0.8939,0.8939
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.5651,0.6086,0.8492
+2,NA,NA,NA,NA,NA,NA,local_no.plants,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.3956,0.7077,0.8492
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,invasion,non_ap - ap = 0,2.855,0,0
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,distance,1 - 5 = 0,1.201,0.2563,0.2563
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,2.449,0.001001,0.003003
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.284,0.2172,0.2606
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,2.428,0,0
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-1.373,0.1842,0.2606
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.4384,0.6577,0.6577
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.492,0.1742,0.2606
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,invasion,non_ap - ap = 0,0.4525,0.6827,0.6827
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,distance,1 - 5 = 0,1.413,0.1552,0.1552
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.741,0.5005,0.7651
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.361,0.1882,0.7651
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.328,0.2973,0.7651
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.7677,0.6376,0.7651
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.6011,0.6046,0.7651
+4,NA,NA,NA,NA,NA,NA,richness,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.3062,1,1
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,invasion,non_ap - ap = 0,-0.8984,0.3794,0.3794
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,distance,1 - 5 = 0,0.6912,0.5045,0.5045
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.1663,0.9349,0.958
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.167,0.3704,0.7408
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.1817,0.8939,0.958
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.611,0.1321,0.5646
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.03862,0.958,0.958
+5,NA,NA,NA,NA,NA,NA,evenness,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.527,0.1882,0.5646
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,invasion,non_ap - ap = 0,-0.6677,0.5235,0.5235
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,distance,1 - 5 = 0,0.9794,0.3453,0.3453
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.1284,0.9469,0.9469
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.361,0.2362,0.6246
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.1607,0.8498,0.9469
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.391,0.2903,0.6246
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.2787,0.8258,0.9469
+6,NA,NA,NA,NA,NA,NA,simpson_index,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.263,0.3123,0.6246
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,invasion,non_ap - ap = 0,0.5417,0.6086,0.6086
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,distance,1 - 5 = 0,1.066,0.3003,0.3003
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.634,0.1021,0.3063
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.991,0.04505,0.2703
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.289,0.1982,0.3815
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.6777,0.5255,0.6046
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.5533,0.6046,0.6046
+7,NA,NA,NA,NA,NA,NA,its_observed_features,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.219,0.2543,0.3815
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,invasion,non_ap - ap = 0,-1.284,0.2222,0.2222
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,distance,1 - 5 = 0,1.406,0.1502,0.1502
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.7123,0.5245,0.6294
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.9227,0.3854,0.5781
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.08928,0.9379,0.9379
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.994,0.04705,0.2823
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,1.231,0.2092,0.4804
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.19,0.2402,0.4804
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,invasion,non_ap - ap = 0,-1.549,0.1321,0.1321
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,distance,1 - 5 = 0,0.9189,0.3734,0.3734
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.8289,0.5485,0.6582
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.7026,0.5165,0.6582
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.4191,0.8128,0.8128
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.776,0.05606,0.3364
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.7789,0.4334,0.6582
+9,NA,NA,NA,NA,NA,NA,its_simpson,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.382,0.2022,0.6066
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,invasion,non_ap - ap = 0,1.367,0.1742,0.1742
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,distance,1 - 5 = 0,1.734,0.07508,0.07508
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.6663,0.5315,0.6378
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.7033,0.4625,0.6378
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,2.44,0.01001,0.06006
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.16,0.8699,0.8699
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,1.787,0.05105,0.1532
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.35,0.2262,0.4524
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,invasion,non_ap - ap = 0,-0.2014,0.8418,0.8418
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,distance,1 - 5 = 0,0.769,0.4695,0.4695
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.04431,0.983,0.983
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.6941,0.5596,0.983
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.3726,0.8248,0.983
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.7719,0.5205,0.983
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.4012,0.8488,0.983
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.248,0.7708,0.983
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,invasion,non_ap - ap = 0,-0.5286,0.6266,0.6266
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,distance,1 - 5 = 0,1.176,0.2793,0.2793
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.4641,0.7197,0.7518
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.814,0.4665,0.7518
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.4342,0.7518,0.7518
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.252,0.2242,0.7518
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.8347,0.4795,0.7518
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.3781,0.7367,0.7518
+1,invasion,1,5582.29264023427,5582.29264023427,228,0.307017543859649,local_aboveground_mass,native,anova_df,NA,NA,NA,NA,NA
+1,distance,1,655.092683569788,655.092683569788,51,0.666666666666667,local_aboveground_mass,native,anova_df,NA,NA,NA,NA,NA
+1,invasion:distance,1,288.062528027731,288.062528027731,51,0.901960784313726,local_aboveground_mass,native,anova_df,NA,NA,NA,NA,NA
+1,Residuals,35,137845.186653429,3938.4339043837,NA,NA,local_aboveground_mass,native,anova_df,NA,NA,NA,NA,NA
+2,invasion,1,3260.36786786785,3260.36786786785,156,0.391025641025641,local_no.plants,native,anova_df,NA,NA,NA,NA,NA
+2,distance,1,7570.70300300302,7570.70300300302,348,0.224137931034483,local_no.plants,native,anova_df,NA,NA,NA,NA,NA
+2,invasion:distance,1,25004.6921921922,25004.6921921922,4329,0.0226380226380226,local_no.plants,native,anova_df,NA,NA,NA,NA,NA
+2,Residuals,35,167333.588888889,4780.95968253968,NA,NA,local_no.plants,native,anova_df,NA,NA,NA,NA,NA
+3,invasion,1,5658.16110810812,5658.16110810812,5000,0.0142,local_coverage_perc,native,anova_df,NA,NA,NA,NA,NA
+3,distance,1,918.303810810814,918.303810810814,260,0.280769230769231,local_coverage_perc,native,anova_df,NA,NA,NA,NA,NA
+3,invasion:distance,1,2069.72975675676,2069.72975675676,481,0.172557172557173,local_coverage_perc,native,anova_df,NA,NA,NA,NA,NA
+3,Residuals,35,28422.361,812.067457142857,NA,NA,local_coverage_perc,native,anova_df,NA,NA,NA,NA,NA
+4,invasion,1,27.5702702702702,27.5702702702702,3515,0.0278805120910384,richness,native,anova_df,NA,NA,NA,NA,NA
+4,distance,1,1.6891891891892,1.6891891891892,51,0.843137254901961,richness,native,anova_df,NA,NA,NA,NA,NA
+4,invasion:distance,1,0.975675675675683,0.975675675675683,51,0.862745098039216,richness,native,anova_df,NA,NA,NA,NA,NA
+4,Residuals,35,166.9,4.76857142857142,NA,NA,richness,native,anova_df,NA,NA,NA,NA,NA
+5,invasion,1,0.169418092061231,0.169418092061231,1237,0.0751818916734034,evenness,native,anova_df,NA,NA,NA,NA,NA
+5,distance,1,0.0510119939244926,0.0510119939244926,235,0.302127659574468,evenness,native,anova_df,NA,NA,NA,NA,NA
+5,invasion:distance,1,0.003859259570885,0.003859259570885,103,0.495145631067961,evenness,native,anova_df,NA,NA,NA,NA,NA
+5,Residuals,34,1.64148408536909,0.0482789436873262,NA,NA,evenness,native,anova_df,NA,NA,NA,NA,NA
+6,invasion,1,0.20145484726649,0.20145484726649,2375,0.0404210526315789,simpson_index,native,anova_df,NA,NA,NA,NA,NA
+6,distance,1,0.0210161221443906,0.0210161221443906,137,0.423357664233577,simpson_index,native,anova_df,NA,NA,NA,NA,NA
+6,invasion:distance,1,0.00295134869303482,0.00295134869303482,69,0.594202898550725,simpson_index,native,anova_df,NA,NA,NA,NA,NA
+6,Residuals,34,1.56965264316528,0.0461662542107436,NA,NA,simpson_index,native,anova_df,NA,NA,NA,NA,NA
+7,invasion,1,99351.2675675686,99351.2675675686,74,0.581081081081081,its_observed_features,native,anova_df,NA,NA,NA,NA,NA
+7,distance,1,6154.27297297306,6154.27297297306,51,0.823529411764706,its_observed_features,native,anova_df,NA,NA,NA,NA,NA
+7,invasion:distance,1,36026.4891891896,36026.4891891896,51,0.725490196078431,its_observed_features,native,anova_df,NA,NA,NA,NA,NA
+7,Residuals,35,4942114.5,141203.271428571,NA,NA,its_observed_features,native,anova_df,NA,NA,NA,NA,NA
+8,invasion,1,0.0057374297297296,0.0057374297297296,475,0.174736842105263,its_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+8,distance,1,0.000609797297297311,0.000609797297297311,55,0.654545454545455,its_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+8,invasion:distance,1,0.000348327027027009,0.000348327027027009,51,0.745098039215686,its_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+8,Residuals,35,0.1156349,0.00330385428571428,NA,NA,its_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+9,invasion,1,0.00178347417417407,0.00178347417417407,462,0.17965367965368,its_simpson,native,anova_df,NA,NA,NA,NA,NA
+9,distance,1,3.01768768768817e-05,3.01768768768817e-05,51,0.764705882352941,its_simpson,native,anova_df,NA,NA,NA,NA,NA
+9,invasion:distance,1,2.30417417417349e-05,2.30417417417349e-05,51,0.980392156862745,its_simpson,native,anova_df,NA,NA,NA,NA,NA
+9,Residuals,35,0.0260736555555556,0.000744961587301587,NA,NA,its_simpson,native,anova_df,NA,NA,NA,NA,NA
+10,invasion,1,431946.389189194,431946.389189194,759,0.117259552042161,X16s_observed_features,native,anova_df,NA,NA,NA,NA,NA
+10,distance,1,605678.10810811,605678.10810811,228,0.307017543859649,X16s_observed_features,native,anova_df,NA,NA,NA,NA,NA
+10,invasion:distance,1,391527.827027024,391527.827027024,354,0.220338983050847,X16s_observed_features,native,anova_df,NA,NA,NA,NA,NA
+10,Residuals,35,12890373.4,368296.382857143,NA,NA,X16s_observed_features,native,anova_df,NA,NA,NA,NA,NA
+11,invasion,1,0.00010955435435433,0.00010955435435433,51,0.941176470588235,X16s_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+11,distance,1,3.31003003003044e-05,3.31003003003044e-05,51,1,X16s_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+11,invasion:distance,1,0.00241528408408402,0.00241528408408402,60,0.633333333333333,X16s_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+11,Residuals,35,0.125230888888889,0.0035780253968254,NA,NA,X16s_pielou_e,native,anova_df,NA,NA,NA,NA,NA
+12,invasion,1,0.000459510210210154,0.000459510210210154,51,0.843137254901961,X16s_simpson,native,anova_df,NA,NA,NA,NA,NA
+12,distance,1,0.000138450750750744,0.000138450750750744,51,1,X16s_simpson,native,anova_df,NA,NA,NA,NA,NA
+12,invasion:distance,1,0.000543250750750725,0.000543250750750725,61,0.622950819672131,X16s_simpson,native,anova_df,NA,NA,NA,NA,NA
+12,Residuals,35,0.0193843222222222,0.000553837777777778,NA,NA,X16s_simpson,native,anova_df,NA,NA,NA,NA,NA
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,invasion,non_ap - ap = 0,1.209,0.2292,0.2292
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,distance,1 - 5 = 0,0.3909,0.7447,0.7447
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.7771,0.4374,0.6636
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.07563,0.96,0.96
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.287,0.2172,0.6636
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.5094,0.7297,0.8756
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,ap.1 - ap.5 = 0,0.8427,0.4154,0.6636
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.9275,0.4424,0.6636
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,invasion,non_ap - ap = 0,-0.8696,0.4024,0.4024
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,distance,1 - 5 = 0,1.154,0.2613,0.2613
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.8793,0.4494,0.5393
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.938,0.03103,0.09309
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.253,0.8448,0.8448
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.903,0.06707,0.1341
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.9146,0.3634,0.5393
+2,NA,NA,NA,NA,NA,NA,local_no.plants,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-2.371,0.01502,0.09012
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,invasion,non_ap - ap = 0,2.358,0.01902,0.01902
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,distance,1 - 5 = 0,0.8734,0.3894,0.3894
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,2.621,0.004004,0.02402
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.64,0.1021,0.2042
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,2.447,0.009009,0.02703
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-1.03,0.3293,0.494
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.4225,0.6817,0.6817
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.7044,0.4675,0.561
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,invasion,non_ap - ap = 0,-2.33,0.01301,0.01301
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,distance,1 - 5 = 0,0.6194,0.5606,0.5606
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.22,0.2693,0.3832
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.18,0.3193,0.3832
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.36,0.2272,0.3832
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.849,0.08108,0.2432
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,ap.1 - ap.5 = 0,0.08341,1,1
+4,NA,NA,NA,NA,NA,NA,richness,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-2.069,0.04905,0.2432
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,invasion,non_ap - ap = 0,-1.834,0.06306,0.06306
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,distance,1 - 5 = 0,-0.993,0.3203,0.3203
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.301,0.2022,0.4144
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.791,0.4424,0.5916
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.954,0.05305,0.3183
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.5861,0.5916,0.5916
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.656,0.5205,0.5916
+5,NA,NA,NA,NA,NA,NA,evenness,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.329,0.2072,0.4144
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,invasion,non_ap - ap = 0,-2.037,0.04605,0.04605
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,distance,1 - 5 = 0,-0.6719,0.5235,0.5235
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.122,0.2513,0.5026
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.2585,0.7988,0.7988
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.933,0.05105,0.1532
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.9387,0.4054,0.5442
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.8136,0.4535,0.5442
+6,NA,NA,NA,NA,NA,NA,simpson_index,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.856,0.04905,0.1532
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,invasion,non_ap - ap = 0,0.8435,0.4134,0.4134
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,distance,1 - 5 = 0,0.1784,0.8589,0.8589
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.034,0.3173,0.8198
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.4511,0.6597,0.8198
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.822,0.4174,0.8198
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.4245,0.6637,0.8198
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.2535,0.8198,0.8198
+7,NA,NA,NA,NA,NA,NA,its_observed_features,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.2269,0.7988,0.8198
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,invasion,non_ap - ap = 0,-1.338,0.1712,0.1712
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,distance,1 - 5 = 0,0.4792,0.6567,0.6567
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.128,0.2833,0.6895
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.05985,0.957,0.957
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.6033,0.5746,0.6895
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.288,0.2112,0.6895
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,ap.1 - ap.5 = 0,0.8148,0.4214,0.6895
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.7264,0.4635,0.6895
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,invasion,non_ap - ap = 0,-1.56,0.1121,0.1121
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,distance,1 - 5 = 0,0.2485,0.8268,0.8268
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-1.178,0.2853,0.6111
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.01378,0.985,0.985
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.9226,0.4074,0.6111
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.26,0.2442,0.6111
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,ap.1 - ap.5 = 0,0.5119,0.6096,0.7315
+9,NA,NA,NA,NA,NA,NA,its_simpson,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.9917,0.3704,0.6111
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,invasion,non_ap - ap = 0,1.064,0.2883,0.2883
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,distance,1 - 5 = 0,1.266,0.2122,0.2122
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.0348,0.972,0.972
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.1558,0.8889,0.972
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.8,0.07007,0.2102
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.131,0.9119,0.972
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,ap.1 - ap.5 = 0,1.868,0.05105,0.2102
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.566,0.1211,0.2422
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,invasion,non_ap - ap = 0,-0.1609,0.8909,0.8909
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,distance,1 - 5 = 0,0.1264,0.9049,0.9049
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.6814,0.7908,0.962
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.4396,0.6787,0.962
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.04532,0.962,0.962
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.2898,0.8238,0.962
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,ap.1 - ap.5 = 0,0.834,0.4955,0.962
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.4907,0.6436,0.962
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,invasion,non_ap - ap = 0,-0.8844,0.6266,0.6266
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,distance,1 - 5 = 0,-0.4565,0.9429,0.9429
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.9728,0.6266,0.9419
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.7537,0.7598,0.9419
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.7152,0.8599,0.9419
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.9183,0.5185,0.9419
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,ap.1 - ap.5 = 0,1.1,0.3514,0.9419
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,native,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.137,0.9419,0.9419
+1,invasion,1,760.953501033776,760.953501033776,68,0.602941176470588,local_aboveground_mass,non_invasive,anova_df,NA,NA,NA,NA,NA
+1,distance,1,97.8747221900912,97.8747221900912,51,0.901960784313726,local_aboveground_mass,non_invasive,anova_df,NA,NA,NA,NA,NA
+1,invasion:distance,1,1097.95445361009,1097.95445361009,279,0.265232974910394,local_aboveground_mass,non_invasive,anova_df,NA,NA,NA,NA,NA
+1,Residuals,27,17407.999614546,644.740726464665,NA,NA,local_aboveground_mass,non_invasive,anova_df,NA,NA,NA,NA,NA
+2,invasion,1,1107.85124269006,1107.85124269006,66,0.606060606060606,local_no.plants,non_invasive,anova_df,NA,NA,NA,NA,NA
+2,distance,1,147.377558479533,147.377558479533,51,0.941176470588235,local_no.plants,non_invasive,anova_df,NA,NA,NA,NA,NA
+2,invasion:distance,1,323.640716374268,323.640716374268,51,0.686274509803922,local_no.plants,non_invasive,anova_df,NA,NA,NA,NA,NA
+2,Residuals,27,126993.097222222,4703.44804526749,NA,NA,local_no.plants,non_invasive,anova_df,NA,NA,NA,NA,NA
+3,invasion,1,3309.46009137427,3309.46009137427,5000,0.0174,local_coverage_perc,non_invasive,anova_df,NA,NA,NA,NA,NA
+3,distance,1,0.301056286549721,0.301056286549721,51,1,local_coverage_perc,non_invasive,anova_df,NA,NA,NA,NA,NA
+3,invasion:distance,1,309.558512426901,309.558512426901,72,0.583333333333333,local_coverage_perc,non_invasive,anova_df,NA,NA,NA,NA,NA
+3,Residuals,27,14379.9876388889,532.592134773663,NA,NA,local_coverage_perc,non_invasive,anova_df,NA,NA,NA,NA,NA
+4,invasion,1,3.65497076023391,3.65497076023391,2179,0.0440569068379991,richness,non_invasive,anova_df,NA,NA,NA,NA,NA
+4,distance,1,0.0365497076023394,0.0365497076023394,51,0.843137254901961,richness,non_invasive,anova_df,NA,NA,NA,NA,NA
+4,invasion:distance,1,0.707602339181287,0.707602339181287,218,0.31651376146789,richness,non_invasive,anova_df,NA,NA,NA,NA,NA
+4,Residuals,27,20.1388888888889,0.745884773662553,NA,NA,richness,non_invasive,anova_df,NA,NA,NA,NA,NA
+5,invasion,1,0.00201398087048854,0.00201398087048854,51,0.96078431372549,evenness,non_invasive,anova_df,NA,NA,NA,NA,NA
+5,distance,1,0.0167261393436457,0.0167261393436457,51,1,evenness,non_invasive,anova_df,NA,NA,NA,NA,NA
+5,invasion:distance,1,0.0363451299864962,0.0363451299864962,51,0.823529411764706,evenness,non_invasive,anova_df,NA,NA,NA,NA,NA
+5,Residuals,11,0.489762307985642,0.0445238461805129,NA,NA,evenness,non_invasive,anova_df,NA,NA,NA,NA,NA
+6,invasion,1,0.00243488393654722,0.00243488393654722,68,0.602941176470588,simpson_index,non_invasive,anova_df,NA,NA,NA,NA,NA
+6,distance,1,0.0231142461441389,0.0231142461441389,51,0.764705882352941,simpson_index,non_invasive,anova_df,NA,NA,NA,NA,NA
+6,invasion:distance,1,0.0287494417599624,0.0287494417599624,51,0.784313725490196,simpson_index,non_invasive,anova_df,NA,NA,NA,NA,NA
+6,Residuals,11,0.37160406462848,0.0337821876934981,NA,NA,simpson_index,non_invasive,anova_df,NA,NA,NA,NA,NA
+7,invasion,1,219085.266447369,219085.266447369,108,0.481481481481481,its_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+7,distance,1,49.7664473684279,49.7664473684279,51,1,its_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+7,invasion:distance,1,180082.898026316,180082.898026316,309,0.245954692556634,its_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+7,Residuals,27,4018205.20833333,148822.415123457,NA,NA,its_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+8,invasion,1,4.3000365497071e-05,4.3000365497071e-05,51,0.92156862745098,its_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+8,distance,1,0.00166914071637429,0.00166914071637429,51,0.823529411764706,its_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+8,invasion:distance,1,0.00193852668128656,0.00193852668128656,51,0.803921568627451,its_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+8,Residuals,27,0.061822263888889,0.00228971347736626,NA,NA,its_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+9,invasion,1,0.00011708918128653,0.00011708918128653,104,0.490384615384615,its_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+9,distance,1,0.000100356725146207,0.000100356725146207,55,0.654545454545455,its_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+9,invasion:distance,1,0.000406036549707605,0.000406036549707605,53,0.660377358490566,its_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+9,Residuals,27,0.00943080555555559,0.000349289094650207,NA,NA,its_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+10,invasion,1,322488.163742692,322488.163742692,51,0.745098039215686,X16s_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+10,distance,1,432816.426900586,432816.426900586,327,0.235474006116208,X16s_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+10,invasion:distance,1,472632.16374269,472632.16374269,58,0.637931034482759,X16s_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+10,Residuals,27,9099559.22222222,337020.711934156,NA,NA,X16s_observed_features,non_invasive,anova_df,NA,NA,NA,NA,NA
+11,invasion,1,0.000124228435672526,0.000124228435672526,51,0.843137254901961,X16s_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+11,distance,1,0.00252234247076027,0.00252234247076027,160,0.3875,X16s_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+11,invasion:distance,1,0.000303333698830407,0.000303333698830407,63,0.619047619047619,X16s_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+11,Residuals,27,0.0637234305555556,0.00236012705761317,NA,NA,X16s_pielou_e,non_invasive,anova_df,NA,NA,NA,NA,NA
+12,invasion,1,2.5179093567223e-06,2.5179093567223e-06,51,0.882352941176471,X16s_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+12,distance,1,0.000118333698830415,0.000118333698830415,324,0.237654320987654,X16s_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+12,invasion:distance,1,1.09389619883038e-05,1.09389619883038e-05,51,0.823529411764706,X16s_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+12,Residuals,27,0.00200093055555556,7.41085390946505e-05,NA,NA,X16s_simpson,non_invasive,anova_df,NA,NA,NA,NA,NA
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,invasion,non_ap - ap = 0,1.185,0.3183,0.3183
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,distance,1 - 5 = 0,-0.3706,0.6797,0.6797
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.1457,0.995,0.995
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-1.128,0.3003,0.6006
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.486,0.1371,0.4113
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.8471,0.4244,0.6366
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.6953,0.8629,0.995
+1,NA,NA,NA,NA,NA,NA,local_aboveground_mass,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.733,0.04304,0.2582
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,invasion,non_ap - ap = 0,0.5045,0.6276,0.6276
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,distance,1 - 5 = 0,0.1638,0.8769,0.8769
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.1683,0.8929,0.976
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.05114,0.976,0.976
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.61,0.5946,0.976
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.2045,0.7688,0.976
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.4006,0.7057,0.976
+2,NA,NA,NA,NA,NA,NA,local_no.plants,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.532,0.7217,0.976
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,invasion,non_ap - ap = 0,2.383,0.01201,0.01201
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,distance,1 - 5 = 0,-0.1416,0.8919,0.8919
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.086,0.3013,0.452
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.4969,0.6607,0.7227
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,2.298,0.01702,0.06606
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-1.442,0.1532,0.3064
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,0.6152,0.7227,0.7227
+3,NA,NA,NA,NA,NA,NA,local_coverage_perc,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,2.213,0.02202,0.06606
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,invasion,non_ap - ap = 0,-2.178,0.03904,0.03904
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,distance,1 - 5 = 0,0.3317,0.8619,0.8619
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.6709,0.7377,0.8288
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.136,0.4424,0.6636
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-1.502,0.1792,0.3584
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.561,0.09309,0.2793
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.4859,0.8288,0.8288
+4,NA,NA,NA,NA,NA,NA,richness,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-2.782,0.008008,0.04805
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,invasion,non_ap - ap = 0,0.01813,0.987,0.987
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,distance,1 - 5 = 0,0.06611,0.9419,0.9419
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.5947,0.6336,0.7427
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.068,0.6476,0.7427
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.3721,0.7307,0.7427
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.5252,0.6597,0.7427
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.3435,0.7427,0.7427
+5,NA,NA,NA,NA,NA,NA,evenness,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.7362,0.7307,0.7427
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,invasion,non_ap - ap = 0,0.0173,0.989,0.989
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,distance,1 - 5 = 0,0.3412,0.7508,0.7508
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.4909,0.5916,0.8012
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,1.404,0.3383,0.8012
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.63,0.6677,0.8012
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.5667,0.5145,0.8012
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.1105,0.9259,0.9259
+6,NA,NA,NA,NA,NA,NA,simpson_index,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.909,0.5075,0.8012
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,invasion,non_ap - ap = 0,1.181,0.2392,0.2392
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,distance,1 - 5 = 0,-0.2168,0.8418,0.8418
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,1.854,0.05906,0.3544
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.6287,0.5495,0.6594
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.9093,0.3894,0.6066
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,-0.8495,0.4044,0.6066
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-1.043,0.3163,0.6066
+7,NA,NA,NA,NA,NA,NA,its_observed_features,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.07276,0.959,0.959
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,invasion,non_ap - ap = 0,-0.2704,0.7858,0.7858
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,distance,1 - 5 = 0,0.8042,0.4324,0.4324
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.6246,0.5646,0.7411
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.9627,0.3764,0.7411
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.4948,0.6176,0.7411
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.754,0.4414,0.7411
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.06818,0.962,0.962
+8,NA,NA,NA,NA,NA,NA,its_pielou_e,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-0.7125,0.4925,0.7411
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,invasion,non_ap - ap = 0,-0.6967,0.5165,0.5165
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,distance,1 - 5 = 0,0.5014,0.6376,0.6376
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,0.4101,0.7057,0.8468
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.8543,0.4344,0.8468
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,-0.03561,0.988,0.988
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.7622,0.5125,0.8468
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,-0.5981,0.5696,0.8468
+9,NA,NA,NA,NA,NA,NA,its_simpson,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,-1.078,0.3413,0.8468
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,invasion,non_ap - ap = 0,0.9069,0.3634,0.3634
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,distance,1 - 5 = 0,1.15,0.2242,0.2242
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.1368,0.9169,0.977
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,-0.03309,0.977,0.977
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,1.701,0.07307,0.2192
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.1037,0.9139,0.977
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,1.73,0.06807,0.2192
+10,NA,NA,NA,NA,NA,NA,X16s_observed_features,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,1.603,0.1161,0.2322
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,invasion,non_ap - ap = 0,0.1453,0.8879,0.8879
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,distance,1 - 5 = 0,1.089,0.2783,0.2783
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.1526,0.8819,0.8819
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.488,0.6967,0.8576
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.7473,0.5365,0.8576
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,0.7161,0.5646,0.8576
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,1.009,0.3213,0.8576
+11,NA,NA,NA,NA,NA,NA,X16s_pielou_e,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.3492,0.7147,0.8576
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,invasion,non_ap - ap = 0,-0.3028,0.7688,0.7688
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,distance,1 - 5 = 0,1.358,0.1852,0.1852
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - ap.1 = 0,-0.6383,0.6206,0.7639
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - non_ap.5 = 0,0.5482,0.6366,0.7639
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,non_ap.1 - ap.5 = 0,0.6779,0.5015,0.7639
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,ap.1 - non_ap.5 = 0,1.166,0.2883,0.7639
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,ap.1 - ap.5 = 0,1.33,0.2152,0.7639
+12,NA,NA,NA,NA,NA,NA,X16s_simpson,non_invasive,posthoc_df,interaction,non_ap.5 - ap.5 = 0,0.1202,0.9489,0.9489
